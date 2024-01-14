@@ -6,6 +6,7 @@ class CardNews extends HTMLElement{
         shadow.appendChild(this.styles())
 
     }
+    
     buildElement() {
         const componentRoot = document.createElement("div")
         componentRoot.setAttribute("class","card")
